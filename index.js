@@ -40,14 +40,22 @@ mapToDouble(double);
 
 
 
+<<<<<<< HEAD
 function reduceToTotal(sourceArray, startingPoint=0) {
   sourceArray = [1,2,3]
   const num = sourceArray.reduce(function(acc, cur) {
+=======
+function reduceToTotal(sourceArray, startingPoint) {
+  sourceArray = [1,2,3]
+  startingPoint = 0;
+  const num = sourceArray.reduce(function(acc + cur) {
+>>>>>>> a75c0f75b1282a89a0c10caa3af54f9ddcec6bbc
     return acc + cur;
   }, startingPoint);
   return num;
   }
  reduceToTotal(num);
+<<<<<<< HEAD
 
 function reduceToAllTrue(sourceArray) {
   const reduceValue = sourceArray.reduce(function(acc, cur) {
@@ -72,3 +80,5 @@ function reduceToAllTrue(sourceArray) {
    })
    return reduceTrue;
  }
+=======
+>>>>>>> a75c0f75b1282a89a0c10caa3af54f9ddcec6bbc
